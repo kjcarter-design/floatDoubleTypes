@@ -39,9 +39,38 @@ public class Main {
         System.out.println("Double Minimum Value = " + myMinDoubleValue);
         System.out.println("Double Maximum Value = " + myMaxDoubleValue);
 
+        System.out.println(s);
+
         int myIntValue = 5;
-        float myFloatValue = 5.25f;
-        double myDoubleValue = 5.25d;
+        float myFloatValue = 5f;
+        double myDoubleValue = 5d;
+
+        System.out.println("As we can see here, integers are whole numbers, while floats and doubles are decimal numbers.");
+
+        System.out.println("Integer Value = " + myIntValue);
+        System.out.println("Float Value   = " + myFloatValue);
+        System.out.println("Double Value  = " + myDoubleValue);
+
+        System.out.println(s);
+        System.out.println("However doubles are more precise than floats.");
+        System.out.println("" +
+                "Integer: 5 / 3 = " + (myIntValue / 3) + "\n"+
+                "Float:   5 / 3 = " + (myFloatValue / 3f) + "\n"+
+                "Double:  5 / 3 = " + (myDoubleValue / 3d));
+
+        System.out.println(s);
+
+        System.out.println(
+                "Challenge: Convert a given number of pounds to kilograms" + "\n" +
+                "1. Create a variable with the appropriate type to store the number of pounds to be converted to kilograms." + "\n" +
+                "2. Calculate the result i.e. the number of kilograms based on the contents of the variable above and store the result" + "\n" + "in a 2nd appropriate variable." + "\n"+
+                "3. Print the result." + "\n" +
+                "HINT: 1 pound is equal to 0.45359237 of a kilogram."
+                );
+        System.out.println(s);
+        System.out.println("Answer");
+
+//      Code goes here
 
 
     }
