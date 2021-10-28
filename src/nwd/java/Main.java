@@ -70,8 +70,9 @@ public class Main {
         System.out.println(s);
         System.out.println("Answer");
 
-//      Code goes here
+        int pound = 300;
+        double kilogram = 0.45359237 * pound;
 
-
+        System.out.println(pound + " pound(s)" + " is equal to " + kilogram + " kilogram(s).");
     }
 }
